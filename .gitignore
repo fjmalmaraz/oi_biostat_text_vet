@@ -23,3 +23,5 @@
 main.pdf
 *.Rhistory
 *.swp
+*~
+_region_.tex
