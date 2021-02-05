@@ -1,6 +1,6 @@
 \documentclass[10pt,openany]%,oneside]
 {book}
-\newcommand{\versiondate}[0]{July 26th, 2020}
+\newcommand{\versiondate}[0]{February 5th, 2021}
 
 %comment these two lines out to revert to default font
 \usepackage{kpfonts}
@@ -34,6 +34,8 @@
 \usepackage[explicit]{titlesec}
 \usepackage{imakeidx, titlesec, paralist, qtree}%
 \usepackage{subfigure}
+
+
 \include{extraTeX/style/colorsV1}
 
 % _____ Online Version _____ %
@@ -47,6 +49,7 @@
 % _____ COLOR PRINT Version _____ %
 %\usepackage[colorlinks=false,pdfborder={0 0 0},urlcolor= black,colorlinks=black,linkcolor=black, citecolor=black,backref=true]{hyperref} %\renewcommand{\printlocation}[0]{\noindent Printed in China. \\}
 
+\definecolor{lightturquoise}{rgb}{0.25,0.88,0.82}
 
 
 \def\labelitemi{--}
@@ -56,6 +59,7 @@
 \usepackage{fnpct}
 \AdaptNoteOpt\footfullcite\multfootcite
 
+\newenvironment{problem}[1][]{\relax \par \bigskip  \qt{Exercise} \eoce\relax\relax}{}
 \bibliography{eoce.bib}
 
 \makeindex 
@@ -76,20 +80,29 @@
 \renewcommand{\thepage}{\arabic{page}}
 \tableofcontents
 
-\include{extraTeX/preamble/foreword_oi_biostat}
-\include{extraTeX/preamble/preface_oi_biostat}
+% HAY QUE ESCRIBIR prologo cuando sea posible 
+%\include{extraTeX/preamble/foreword_oi_biostat}
+%\include{extraTeX/preamble/preface_oi_biostat}
 
 \normalsize
 \begingroup
 \include{extraTeX/style/headers}
-\includechapter{1}{ch_intro_to_data_oi_biostat}
-\includechapter{2}{ch_probability_oi_biostat}
-\includechapter{3}{ch_distributions_oi_biostat}
-\includechapter{4}{ch_inference_foundations_oi_biostat}
-\includechapter{5}{ch_inference_for_means_oi_biostat}
-\includechapter{6}{ch_simple_linear_regression_oi_biostat}
-\includechapter{7}{ch_multiple_linear_regression_oi_biostat}
-\includechapter{8}{ch_inference_for_props_oi_biostat}
+\includechapter{1}{ch_01a_intro_to_data_oi_biostat}
+\includechapter{2}{ch_02a_probability_oi_biostat}
+%%%%
+%\includechapter{3}{ch_distributions_oi_biostat}
+%\includechapter{4}{ch_inference_foundations_oi_biostat}
+\includechapter{3}{ch_03a_inference_foundations_oi_biostat}
+\includechapter{4}{ch_04a_inference_foundations_oi_biostat}
+\includechapter{5}{ch_05a_inference_foundations_oi_biostat}
+% \includechapter{5}{ch_inference_for_means_oi_biostat}
+\includechapter{6}{ch_06a_inference_for_means_oi_biostat}
+\includechapter{7}{ch_07a_inference_for_means_oi_biostat}
+%\includechapter{6}{ch_simple_linear_regression_oi_biostat}
+%\includechapter{7}{ch_multiple_linear_regression_oi_biostat}
+%\includechapter{8}{ch_inference_for_props_oi_biostat}
+\includechapter{8}{ch_08a_inference_for_props_oi_biostat}
+\includechapter{9}{ch_09a_simple_linear_regression_oi_biostat}
 \endgroup
 
 \begingroup
@@ -97,9 +110,10 @@
 \appendix{}
 \addtocontents{toc}{\protect\setcounter{tocdepth}{0}}%
 \include{extraTeX/eoce_solutions/eoce_solutions}
-\include{extraTeX/appendix/TeX/zTable}
-\include{extraTeX/appendix/TeX/tTable}
-\include{extraTeX/appendix/TeX/chiSquareTable}
+\include{extraTeX/appendix/TeX/vetTables}
+%\include{extraTeX/appendix/TeX/zTable}
+%\include{extraTeX/appendix/TeX/tTable}
+%\include{extraTeX/appendix/TeX/chiSquareTable}
 \endgroup
 
 \cleardoublepage

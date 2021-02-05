@@ -1,102 +1,93 @@
-This is makeindex, version 2.15 [TeX Live 2020/W32TeX] (kpathsea + Thai support).
+This is makeindex, version 2.15 [TeX Live 2020] (kpathsea + Thai support).
 Scanning input file main.idx....
-!! Input index error (file = main.idx, line = 17):
+!! Input index error (file = main.idx, line = 24):
    -- Illegal null field.
-done (465 entries accepted, 1 rejected).
-Sorting entries.......done (4699 comparisons).
+done (332 entries accepted, 1 rejected).
+Sorting entries.....done (2899 comparisons).
 Generating output file main.ind....
-## Warning (input = main.idx, line = 384; output = main.ind, line = 4):
+## Warning (input = main.idx, line = 253; output = main.ind, line = 5):
    -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
 
-## Warning (input = main.idx, line = 382; output = main.ind, line = 4):
-   -- Unmatched range opening operator (.
-
-## Warning (input = main.idx, line = 317; output = main.ind, line = 8):
-   -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
-
-## Warning (input = main.idx, line = 169; output = main.ind, line = 16):
-   -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
-
-## Warning (input = main.idx, line = 264; output = main.ind, line = 43):
+## Warning (input = main.idx, line = 175; output = main.ind, line = 32):
    -- Unmatched range closing operator ).
 
-## Warning (input = main.idx, line = 246; output = main.ind, line = 71):
+## Warning (input = main.idx, line = 227; output = main.ind, line = 56):
    -- Unmatched range opening operator (.
 
-## Warning (input = main.idx, line = 118; output = main.ind, line = 76):
+## Warning (input = main.idx, line = 113; output = main.ind, line = 57):
+   -- Unmatched range opening operator (.
+
+## Warning (input = main.idx, line = 63; output = main.ind, line = 60):
    -- Extra range opening operator (.
 
-## Warning (input = main.idx, line = 193; output = main.ind, line = 110):
-   -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
-
-## Warning (input = main.idx, line = 197; output = main.ind, line = 112):
-   -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
-
-## Warning (input = main.idx, line = 223; output = main.ind, line = 115):
-   -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
-
-## Warning (input = main.idx, line = 226; output = main.ind, line = 118):
-   -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
-
-## Warning (input = main.idx, line = 202; output = main.ind, line = 120):
-   -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
-
-## Warning (input = main.idx, line = 218; output = main.ind, line = 122):
-   -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
-
-## Warning (input = main.idx, line = 134; output = main.ind, line = 131):
-   -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
-
-## Warning (input = main.idx, line = 274; output = main.ind, line = 167):
+## Warning (input = main.idx, line = 95; output = main.ind, line = 62):
    -- Unmatched range closing operator ).
 
-## Warning (input = main.idx, line = 156; output = main.ind, line = 186):
-   -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
+## Warning (input = main.idx, line = 65; output = main.ind, line = 63):
+   -- Extra range opening operator (.
 
-## Warning (input = main.idx, line = 152; output = main.ind, line = 186):
-   -- Unmatched range opening operator (.
-
-## Warning (input = main.idx, line = 422; output = main.ind, line = 203):
-   -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
-
-## Warning (input = main.idx, line = 155; output = main.ind, line = 208):
-   -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
-
-## Warning (input = main.idx, line = 151; output = main.ind, line = 208):
-   -- Unmatched range opening operator (.
-
-## Warning (input = main.idx, line = 212; output = main.ind, line = 251):
-   -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
-
-## Warning (input = main.idx, line = 295; output = main.ind, line = 272):
-   -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
-
-## Warning (input = main.idx, line = 292; output = main.ind, line = 272):
-   -- Unmatched range opening operator (.
-
-## Warning (input = main.idx, line = 249; output = main.ind, line = 276):
-   -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
-
-## Warning (input = main.idx, line = 22; output = main.ind, line = 283):
-   -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
-
-## Warning (input = main.idx, line = 126; output = main.ind, line = 295):
-   -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
-
-## Warning (input = main.idx, line = 128; output = main.ind, line = 308):
+## Warning (input = main.idx, line = 296; output = main.ind, line = 63):
    -- Unmatched range closing operator ).
 
-## Warning (input = main.idx, line = 175; output = main.ind, line = 309):
-   -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
-
-## Warning (input = main.idx, line = 340; output = main.ind, line = 360):
-   -- Unmatched range closing operator ).
-
-## Warning (input = main.idx, line = 335; output = main.ind, line = 363):
+## Warning (input = main.idx, line = 184; output = main.ind, line = 76):
    -- Unmatched range opening operator (.
 
-## Warning (input = main.idx, line = 171; output = main.ind, line = 414):
+## Warning (input = main.idx, line = 104; output = main.ind, line = 89):
+   -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
+
+## Warning (input = main.idx, line = 103; output = main.ind, line = 89):
+   -- Unmatched range opening operator (.
+
+## Warning (input = main.idx, line = 79; output = main.ind, line = 96):
+   -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
+
+## Warning (input = main.idx, line = 212; output = main.ind, line = 124):
    -- Unmatched range closing operator ).
-done (443 lines written, 31 warnings).
+
+## Warning (input = main.idx, line = 194; output = main.ind, line = 156):
+   -- Unmatched range closing operator ).
+
+## Warning (input = main.idx, line = 233; output = main.ind, line = 195):
+   -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
+
+## Warning (input = main.idx, line = 230; output = main.ind, line = 195):
+   -- Unmatched range opening operator (.
+
+## Warning (input = main.idx, line = 157; output = main.ind, line = 200):
+   -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
+
+## Warning (input = main.idx, line = 115; output = main.ind, line = 208):
+   -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
+
+## Warning (input = main.idx, line = 71; output = main.ind, line = 214):
+   -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
+
+## Warning (input = main.idx, line = 67; output = main.ind, line = 214):
+   -- Unmatched range opening operator (.
+
+## Warning (input = main.idx, line = 73; output = main.ind, line = 221):
+   -- Unmatched range closing operator ).
+
+## Warning (input = main.idx, line = 91; output = main.ind, line = 223):
+   -- Inconsistent page encapsulator hyperindexformat{\textbf} within range.
+
+## Warning (input = main.idx, line = 90; output = main.ind, line = 223):
+   -- Unmatched range opening operator (.
+
+## Warning (input = main.idx, line = 322; output = main.ind, line = 230):
+   -- Unmatched range opening operator (.
+
+## Warning (input = main.idx, line = 191; output = main.ind, line = 262):
+   -- Unmatched range closing operator ).
+
+## Warning (input = main.idx, line = 308; output = main.ind, line = 270):
+   -- Unmatched range closing operator ).
+
+## Warning (input = main.idx, line = 303; output = main.ind, line = 272):
+   -- Unmatched range opening operator (.
+
+## Warning (input = main.idx, line = 181; output = main.ind, line = 313):
+   -- Unmatched range opening operator (.
+done (344 lines written, 28 warnings).
 Output written in main.ind.
 Transcript written in main.ilg.
